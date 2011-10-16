@@ -1,4 +1,4 @@
-#include "util.h"
+﻿#include "util.h"
 
 
 
@@ -8,11 +8,6 @@ void displaySpace(int num) {
 	}
 }
 
-/*
- * Begin code I did not write.
- * This code is derived from http://www.koders.com/c/fid8679A6044F747F9240EE95A9C00821C820012EF3.aspx?s=search
- * Copyright (C) 2004-2006  Autodesk, Inc.
- */
 char* mydtoa(double number, int width, int precision)
 {
 	static char buffer[10][32];
@@ -44,9 +39,7 @@ char* mydtoa(double number, int width, int precision)
 	current %= 10;
 	return ptr;
 }
-/*
- * End code I did not write.
- */
+
 
 
 
